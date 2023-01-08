@@ -32,7 +32,7 @@ export function Home() {
     });
 
     function handleCreateNewCycle(data: NewCycleFormData){
-        console.log('oi')
+        console.log(data)
         reset();
     }
 
